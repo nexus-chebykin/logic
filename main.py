@@ -8,11 +8,11 @@ except:
     pass
 input_formula = input()
 # Следующие замены для тестирование, чтобы можно было ctrl + c ctrl + v :)
-# input_formula = input_formula.replace('∨', '+')
-# input_formula = input_formula.replace('¬', '-')
-# input_formula = input_formula.replace('∧', '*')
-# input_formula = input_formula.replace('≡', '==')
-# input_formula = input_formula.replace('→', '=>')
+input_formula = input_formula.replace('∨', '+')
+input_formula = input_formula.replace('¬', '-')
+input_formula = input_formula.replace('∧', '*')
+input_formula = input_formula.replace('≡', '==')
+input_formula = input_formula.replace('→', '=>')
 formula = ''
 i = 0
 variables = set()
